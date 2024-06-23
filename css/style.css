@@ -1,0 +1,173 @@
+* { 
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    background-image:url(C:\Users\ADMIN\Desktop\Moringa projects\my-personal-website\assets\background.jpg);
+    background-color: #082b42; /* Base color */
+  background-color: linear-gradient(to bottom, rgba(52, 152, 219, 0.8) 0%, rgba(52, 152, 219, 1) 100%);
+  } 
+
+
+
+.header {
+    position: fixed;
+    top: 50;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+   
+    font-size: 25px;
+    color : #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+#navbara a {
+    
+    font-size: 18px;
+    color : #ededed ;
+    text-decoration : none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+
+ }
+   #navbara a:hover,
+   #navbara a:active{
+    color: #00abf0;
+
+   } 
+   .home {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+   }
+   .home-content {
+    max-width: 600px;
+    position: relative;
+   }
+   .home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #ededed;
+    
+   }
+   .homeC h3{
+    padding-top: 1000px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #00abf0;
+   }
+
+   .homeC p {
+    font-size: 16px;
+    color: #ededed;
+    margin : 20px;
+    font-style: italic;
+
+   } 
+   .homeC.btn-box {
+    width: 345 px;
+    height: 50px;
+    background :yellowgreen;
+
+   }
+   .btn-box {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: color #00abf0; 
+    border: 2px solid #00abf0 ;
+    border-radius: 8px;
+    font-size: 19px;
+    color :#081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+   }
+   #b1{
+    background-color: #00abf0;
+    border-radius:5px ;
+    width: 100px;
+    height: 140%;
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+    transition: 1s;
+   }
+   #b2 {
+    margin: 10px;
+    border-color: #00abf0;
+    border-radius:5px ;
+    width: 100px;
+    height: 140%;
+    background: transparent;
+    font-size: medium;
+    padding: 10px;
+    font-weight: 600;
+    transition: 1s;
+   
+   }
+   #b1:hover{
+    background-color: white;
+   }
+   #b2:hover{
+    background-color: #00abf0;
+   }
+       
+    #ol {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        color: #ededed;
+    }
+    
+    .skills h3 {
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-weight: 900;
+        font-size: larger;
+        font-family: 'Courier New', Courier, monospace;
+        color: #00abf0;
+   
+       
+
+    }
+    #contacts h3 {
+        color: #00abf0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        font-weight: 600;
+
+    }
+    .heading {
+        color: aliceblue;
+    }
+    #Linked a{
+        color: #ededed;
+        font-size: medium;
+
+    }
+    #Projects h4{
+        padding-bottom: 20px;
+    }
+    @media only screen and (max-width: 600px){ 
+        body 
+        {
+            background-color:black;
+        }
